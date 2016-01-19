@@ -9,6 +9,8 @@ var ingredientSchema = mongoose.Schema({
     cost: {type: 'Number'},
     vendor: {type: 'String'},
     qtyPerOrder: {type: 'Number'}
+
+    
 });
 //make a model with this schema. push this model out
 module.exports = mongoose.model('Ingredients', ingredientSchema);

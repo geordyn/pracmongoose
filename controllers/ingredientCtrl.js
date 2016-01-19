@@ -9,7 +9,7 @@ module.exports = {
       res.send(result);
     });
   },
-
+  
   read: function(req, res){
     ingredientModel.find({}, function(err, result){
       console.log('read');

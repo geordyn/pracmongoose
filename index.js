@@ -8,7 +8,7 @@ var app = express();
 var port = 1000;
 ////////////////////////////
 app.use(bodyParser.json());
-
+////////////
 var mongoUri = 'mongodb://localhost:27017/tacos';
 mongoose.connect(mongoUri); //default port number to connect to mongoose
 //second part says once you open connection one time, it'll consolelog
